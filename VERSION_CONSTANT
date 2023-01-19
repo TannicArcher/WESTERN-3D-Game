@@ -1,0 +1,37 @@
+
+==========
+ REMINDER
+==========
+
+List of all version number and name string to change when releasing WS3D.
+
+
+
+in qcommon/q_shared.h:
+
+#define ws3d_RELEASE		date
+#define PRODUCT_VERSION		version number
+
+
+
+Makefile.western3d:	(no space allowed)
+
+VERSION           = 1.0
+
+
+
+in ui/main.menu (content repository or engine repository???):
+
+itemDef {
+          name modtext
+          text "WESTERN3D version 1.0 (c) 2022 Ruslan Semchenko Productions"
+          style 0
+          textscale .2
+          rect 270 435 640 40
+//        textalign 1   
+          textaligny 32
+          textalignx 10
+          visible 1
+          decoration
+}
+
