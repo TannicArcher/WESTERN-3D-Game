@@ -1,2 +1,2 @@
 # WESTERN 3D Game
- Firs person shooter 
+ First person shooter 
